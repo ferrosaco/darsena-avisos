@@ -13,6 +13,7 @@ Hay dos umbrales, los dos opcionales:
 - `minimumVersion`: si la app instalada es más antigua, sale un aviso que se puede cerrar.
 - `requiredVersion`: si la app instalada es más antigua, la app se bloquea hasta actualizar.
 - `required: true` es el modo antiguo: trata `minimumVersion` como bloqueo. Las builds nuevas miran primero `requiredVersion`.
+- La compilación 62 necesita que `required` esté presente. Si falta, ignora el archivo entero. Déjalo en `false` salvo que quieras bloquear esa build.
 
 `messages` y `requiredMessages` llevan el texto en `es`, `gl` y `en`. Si falta el idioma, se usa el español.
 `message` en un solo idioma sigue valiendo: las builds anteriores solo leen ese campo.
