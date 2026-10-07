@@ -1,0 +1,13 @@
+{
+  "ios": {
+    "minimumVersion": "1.5.1",
+    "required": false,
+    "storeUrl": "https://apps.apple.com/app/id6812350715"
+  },
+  "android": {
+    "minimumVersion": "1.5.1",
+    "required": false,
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.pauta.darsena"
+  },
+  "alerts": []
+}
