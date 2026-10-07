@@ -1,52 +1,15 @@
 {
   "ios": {
-    "minimumVersion": "1.6",
+    "minimumVersion": "1.5.1",
     "requiredVersion": "1.5.1",
     "required": false,
-    "storeUrl": "https://apps.apple.com/app/id6812350715",
-    "messages": {
-      "es": "Hay una versión nueva de Dársena. Puedes actualizar cuando quieras.",
-      "gl": "Hai unha versión nova de Dársena. Podes actualizar cando queiras.",
-      "en": "A new version of Dársena is available. You can update whenever you like."
-    },
-    "requiredMessages": {
-      "es": "Necesitas actualizar Dársena para seguir usándola.",
-      "gl": "Necesitas actualizar Dársena para seguir usándoa.",
-      "en": "You need to update Dársena to keep using it."
-    }
+    "storeUrl": "https://apps.apple.com/app/id6812350715"
   },
   "android": {
-    "minimumVersion": "1.6",
+    "minimumVersion": "1.5.1",
     "requiredVersion": "1.5.1",
     "required": false,
-    "storeUrl": "https://play.google.com/store/apps/details?id=com.pauta.darsena",
-    "messages": {
-      "es": "Hay una versión nueva de Dársena. Puedes actualizar cuando quieras.",
-      "gl": "Hai unha versión nova de Dársena. Podes actualizar cando queiras.",
-      "en": "A new version of Dársena is available. You can update whenever you like."
-    },
-    "requiredMessages": {
-      "es": "Necesitas actualizar Dársena para seguir usándola.",
-      "gl": "Necesitas actualizar Dársena para seguir usándoa.",
-      "en": "You need to update Dársena to keep using it."
-    }
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.pauta.darsena"
   },
-  "alerts": [
-    {
-      "id": "prueba-lineas-3-5",
-      "message": "Manifestación por la vivienda (19:00 - 21:00). Se esperan afectaciones a la circulación.",
-      "messages": {
-        "es": "Manifestación por la vivienda (19:00 - 21:00). Se esperan afectaciones a la circulación.",
-        "gl": "Manifestación pola vivenda (19:00 - 21:00). Espéranse afectacións á circulación.",
-        "en": "Housing protest (19:00 - 21:00). Traffic disruptions are expected."
-      },
-      "url": "https://www.google.com",
-      "until": "2026-10-08T00:00:00+02:00",
-      "lineIds": [
-        300,
-        500
-      ],
-      "stopIds": []
-    }
-  ]
+  "alerts": []
 }
