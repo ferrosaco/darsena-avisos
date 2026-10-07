@@ -1,18 +1,43 @@
 {
   "ios": {
-    "minimumVersion": "1.5.1",
-    "required": false,
-    "storeUrl": "https://apps.apple.com/app/id6812350715"
+    "minimumVersion": "1.6",
+    "requiredVersion": "1.5.1",
+    "storeUrl": "https://apps.apple.com/app/id6812350715",
+    "messages": {
+      "es": "Hay una versión nueva de Dársena. Puedes actualizar cuando quieras.",
+      "gl": "Hai unha versión nova de Dársena. Podes actualizar cando queiras.",
+      "en": "A new version of Dársena is available. You can update whenever you like."
+    },
+    "requiredMessages": {
+      "es": "Necesitas actualizar Dársena para seguir usándola.",
+      "gl": "Necesitas actualizar Dársena para seguir usándoa.",
+      "en": "You need to update Dársena to keep using it."
+    }
   },
   "android": {
-    "minimumVersion": "1.5.1",
-    "required": false,
-    "storeUrl": "https://play.google.com/store/apps/details?id=com.pauta.darsena"
+    "minimumVersion": "1.6",
+    "requiredVersion": "1.5.1",
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.pauta.darsena",
+    "messages": {
+      "es": "Hay una versión nueva de Dársena. Puedes actualizar cuando quieras.",
+      "gl": "Hai unha versión nova de Dársena. Podes actualizar cando queiras.",
+      "en": "A new version of Dársena is available. You can update whenever you like."
+    },
+    "requiredMessages": {
+      "es": "Necesitas actualizar Dársena para seguir usándola.",
+      "gl": "Necesitas actualizar Dársena para seguir usándoa.",
+      "en": "You need to update Dársena to keep using it."
+    }
   },
   "alerts": [
     {
       "id": "prueba-lineas-3-5",
       "message": "Aviso de prueba. Las líneas 3 y 5 no tienen ninguna afectación: esto solo sirve para comprobar que el aviso se ve.",
+      "messages": {
+        "es": "Aviso de prueba. Las líneas 3 y 5 no tienen ninguna afectación: esto solo sirve para comprobar que el aviso se ve.",
+        "gl": "Aviso de proba. As liñas 3 e 5 non teñen ningunha afectación: isto só serve para comprobar que o aviso se ve.",
+        "en": "Test notice. Lines 3 and 5 are not affected: this only checks that the notice shows up."
+      },
       "url": "https://www.google.com",
       "until": "2026-10-08T00:00:00+02:00",
       "lineIds": [
