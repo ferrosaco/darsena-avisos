@@ -9,5 +9,17 @@
     "required": false,
     "storeUrl": "https://play.google.com/store/apps/details?id=com.pauta.darsena"
   },
-  "alerts": []
+  "alerts": [
+    {
+      "id": "prueba-lineas-3-5",
+      "message": "Aviso de prueba. Las líneas 3 y 5 no tienen ninguna afectación: esto solo sirve para comprobar que el aviso se ve.",
+      "url": "https://www.google.com",
+      "until": "2026-10-08T00:00:00+02:00",
+      "lineIds": [
+        300,
+        500
+      ],
+      "stopIds": []
+    }
+  ]
 }
