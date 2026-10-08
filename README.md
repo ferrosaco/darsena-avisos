@@ -43,4 +43,24 @@ La aspa lo oculta solo en esa ficha. Al volver a abrir una parada o línea afect
 }
 ```
 
-`lineIds` y `stopIds` son los identificadores internos. La 3 es `300` y la 5 es `500`.
+`lineIds` y `stopIds` son los identificadores internos. La 3 es `300` y la 5 es `500`. Esos dos campos siguen avisando solo en la ficha de una parada o una línea del bus urbano.
+
+## Pestañas
+
+`modes` dice en qué pestañas sale el aviso: `bus`, `bike`, `taxi`, `train` o `tmg`. Se muestra arriba de esa pestaña. En bici, tren y TMG también sale al abrir una ficha. Un aviso de bus urbano que solo lleva `lineIds` o `stopIds` no aparece en las demás pestañas.
+La compilación 64 y las anteriores ignoran `modes`. Un aviso dirigido a otra pestaña solo lo ve la 65 o una posterior.
+
+```json
+{
+  "id": "renfe-carretera",
+  "messages": {
+    "es": "Entre el 5 y el 12 de noviembre el servicio de Renfe se prestará por carretera.",
+    "gl": "Entre o 5 e o 12 de novembro o servizo de Renfe prestarase por estrada.",
+    "en": "Between 5 and 12 November the Renfe service will be provided by road."
+  },
+  "url": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/10/renfe-modifica-temporalmente-servicio-a-coruna",
+  "from": "2026-11-03T00:00:00+01:00",
+  "until": "2026-11-13T00:00:00+01:00",
+  "modes": ["train"]
+}
+```

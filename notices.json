@@ -52,6 +52,19 @@
       "until": "2026-11-12T00:00:00+01:00",
       "lineIds": [100, 1900, 200, 800, 300, 301, 400, 500, 600, 601, 700, 1100, 1200, 1500, 1400, 1700, 2000, 2100, 2200, 2300, 2301, 2400, 1800, 1801, 2450, 2451],
       "stopIds": []
+    },
+    {
+      "id": "renfe-carretera-noviembre",
+      "message": "Entre el 5 y el 12 de noviembre el servicio de Renfe se prestará por carretera.",
+      "messages": {
+        "es": "Entre el 5 y el 12 de noviembre el servicio de Renfe se prestará por carretera.",
+        "gl": "Entre o 5 e o 12 de novembro o servizo de Renfe prestarase por estrada.",
+        "en": "Between 5 and 12 November the Renfe service will be provided by road."
+      },
+      "url": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/10/renfe-modifica-temporalmente-servicio-a-coruna",
+      "from": "2026-11-03T00:00:00+01:00",
+      "until": "2026-11-13T00:00:00+01:00",
+      "modes": ["train"]
     }
   ]
 }
