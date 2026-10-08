@@ -11,5 +11,19 @@
     "required": false,
     "storeUrl": "https://play.google.com/store/apps/details?id=com.pauta.darsena"
   },
-  "alerts": []
+  "alerts": [
+    {
+      "id": "udc-sabado-10",
+      "message": "Línea UDC reforzada desde las 16:00 y tras finalizar el encuentro del Básquet Coruña.",
+      "messages": {
+        "es": "Línea UDC reforzada desde las 16:00 y tras finalizar el encuentro del Básquet Coruña.",
+        "gl": "Liña UDC reforzada desde as 16:00 e tras finalizar o encontro do Básquet Coruña.",
+        "en": "UDC line reinforced from 16:00 and after the Básquet Coruña game ends."
+      },
+      "url": "https://x.com/TranviasCoruna/status/2108142882871787766",
+      "until": "2026-10-11T00:00:00+02:00",
+      "lineIds": [2450, 2451],
+      "stopIds": []
+    }
+  ]
 }
