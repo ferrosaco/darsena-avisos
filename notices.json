@@ -25,6 +25,19 @@
       "until": "2026-10-11T00:00:00+02:00",
       "lineIds": [2450, 2451],
       "stopIds": []
+    },
+    {
+      "id": "alfonso-molina-sindicatos",
+      "message": "La parada está anulada. La línea 22 hace parada unos metros más adelante.",
+      "messages": {
+        "es": "La parada está anulada. La línea 22 hace parada unos metros más adelante.",
+        "gl": "A parada está anulada. A liña 22 fai parada uns metros máis adiante.",
+        "en": "This stop is out of service. Line 22 stops a few meters ahead."
+      },
+      "url": "https://x.com/TranviasCoruna/status/2106033077218926619",
+      "until": "2027-02-23T00:00:00+01:00",
+      "lineIds": [],
+      "stopIds": [287]
     }
   ]
 }
