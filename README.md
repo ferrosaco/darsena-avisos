@@ -22,7 +22,8 @@ Hay dos umbrales, los dos opcionales:
 
 El aviso se muestra al abrir una parada o una línea que coincida. Una línea afecta también a las paradas por las que pasa.
 El texto va en `messages` (`es`, `gl`, `en`). `message` es el respaldo de una sola frase.
-`until` es una fecha ISO 8601 con zona horaria. Pasada esa hora, el aviso desaparece.
+`from` y `until` son fechas ISO 8601 con zona horaria. El aviso solo se muestra entre esas dos horas. Si falta `from`, se muestra desde que se publica. Pasada `until`, desaparece.
+La compilación 63 y las anteriores ignoran `from` y mostrarían el aviso en cuanto esté en el archivo. Un aviso programado solo debe publicarse cuando la app instalada sea la 64 o posterior.
 `url` es el botón «Saber más».
 La aspa lo oculta solo en esa ficha. Al volver a abrir una parada o línea afectada, vuelve a salir.
 
@@ -35,7 +36,8 @@ La aspa lo oculta solo en esa ficha. Al volver a abrir una parada o línea afect
     "en": "Line 4 does not stop at Puerta Real until Friday."
   },
   "url": "https://ejemplo.com/aviso",
-  "until": "2026-10-10T22:00:00+02:00",
+  "from": "2026-10-10T00:00:00+02:00",
+  "until": "2026-10-11T00:00:00+02:00",
   "lineIds": [4],
   "stopIds": [1204]
 }
