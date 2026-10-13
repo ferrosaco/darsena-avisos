@@ -65,6 +65,20 @@
       "from": "2026-11-03T00:00:00+01:00",
       "until": "2026-11-13T00:00:00+01:00",
       "modes": ["train"]
+    },
+    {
+      "id": "manifestacion-comercio-13",
+      "message": "Manifestación del comercio de la alimentación a partir de las 12:00 desde Pza. de Lugo a Pza. de San Agustín.",
+      "messages": {
+        "es": "Manifestación del comercio de la alimentación a partir de las 12:00 desde Pza. de Lugo a Pza. de San Agustín.",
+        "gl": "Manifestación do comercio da alimentación a partir das 12:00 desde a Praza de Lugo ata a Praza de San Agustín.",
+        "en": "Food retail demonstration from 12:00, from Plaza de Lugo to Plaza de San Agustín."
+      },
+      "url": "https://x.com/servizosccoo/status/2107722394244694197?s=46",
+      "from": "2026-10-13T11:00:00+02:00",
+      "until": "2026-10-13T13:00:00+02:00",
+      "lineIds": [100, 1900, 200, 800, 300, 301, 400, 500, 600, 601, 700, 1100, 1700, 2000, 2100, 2200, 2300, 2301, 2400, 2450, 2451],
+      "stopIds": []
     }
   ]
 }
