@@ -91,6 +91,20 @@
       "url": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/10/renfe-refuerza-movilidad-eje-atlantico",
       "until": "2026-10-24T00:00:00+02:00",
       "modes": ["train"]
+    },
+    {
+      "id": "grela-transporte-15",
+      "message": "Concentración en A Grela del sector del transporte de mercancías a las 11:00.",
+      "messages": {
+        "es": "Concentración en A Grela del sector del transporte de mercancías a las 11:00.",
+        "gl": "Concentración na Grela do sector do transporte de mercadorías ás 11:00.",
+        "en": "Freight transport sector gathering at A Grela at 11:00."
+      },
+      "url": "https://cig.gal/nova/cig-ccoo-e-ugt-convocan-mobilizacions-por-un-convenio-digno-no-transporte-de-mercadorias-da-coruna-e-non-descartan-ir-a-folga.html",
+      "from": "2026-10-15T10:00:00+02:00",
+      "until": "2026-10-15T12:30:00+02:00",
+      "lineIds": [1100],
+      "stopIds": []
     }
   ]
 }
