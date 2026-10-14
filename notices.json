@@ -79,6 +79,18 @@
       "until": "2026-10-13T13:00:00+02:00",
       "lineIds": [100, 1900, 200, 800, 300, 301, 400, 500, 600, 601, 700, 1100, 1700, 2000, 2100, 2200, 2300, 2301, 2400, 2450, 2451],
       "stopIds": []
+    },
+    {
+      "id": "renfe-horarios-15",
+      "message": "Cambios en los horarios de tren desde el jueves 15.",
+      "messages": {
+        "es": "Cambios en los horarios de tren desde el jueves 15.",
+        "gl": "Cambios nos horarios de tren desde o xoves 15.",
+        "en": "Changes to train timetables from Thursday the 15th."
+      },
+      "url": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/10/renfe-refuerza-movilidad-eje-atlantico",
+      "until": "2026-10-24T00:00:00+02:00",
+      "modes": ["train"]
     }
   ]
 }
