@@ -108,11 +108,11 @@
     },
     {
       "id": "carrera-enki-17",
-      "message": "El sábado habrá ajustes en la línea por la carrera ENKI'26 (de 11h a 20h aprox.).",
+      "message": "Ajustes en la circulación el sábado por la carrera ENKI'26 (de 11h a 20h aprox.).",
       "messages": {
-        "es": "El sábado habrá ajustes en la línea por la carrera ENKI'26 (de 11h a 20h aprox.).",
-        "gl": "O sábado haberá axustes na liña pola carreira ENKI'26 (de 11h a 20h aprox.).",
-        "en": "On Saturday the line will be adjusted for the ENKI'26 race (from about 11:00 to 20:00)."
+        "es": "Ajustes en la circulación el sábado por la carrera ENKI'26 (de 11h a 20h aprox.).",
+        "gl": "Axustes na circulación o sábado pola carreira ENKI'26 (de 11h a 20h aprox.).",
+        "en": "Service adjustments on Saturday due to the ENKI'26 race (from about 11:00 to 20:00)."
       },
       "url": "https://tranviascoruna.com/gl/afeccions-pola-carreira-enki26/",
       "until": "2026-10-17T20:30:00+02:00",
