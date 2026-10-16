@@ -105,6 +105,19 @@
       "until": "2026-10-15T12:30:00+02:00",
       "lineIds": [1100],
       "stopIds": []
+    },
+    {
+      "id": "carrera-enki-17",
+      "message": "El sábado habrá ajustes en la línea por la carrera ENKI'26 (de 11h a 20h aprox.).",
+      "messages": {
+        "es": "El sábado habrá ajustes en la línea por la carrera ENKI'26 (de 11h a 20h aprox.).",
+        "gl": "O sábado haberá axustes na liña pola carreira ENKI'26 (de 11h a 20h aprox.).",
+        "en": "On Saturday the line will be adjusted for the ENKI'26 race (from about 11:00 to 20:00)."
+      },
+      "url": "https://tranviascoruna.com/gl/afeccions-pola-carreira-enki26/",
+      "until": "2026-10-17T20:30:00+02:00",
+      "lineIds": [100, 1900, 200, 800, 300, 301, 500, 700, 1700, 2300, 2301],
+      "stopIds": []
     }
   ]
 }
