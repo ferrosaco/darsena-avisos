@@ -68,11 +68,11 @@
     },
     {
       "id": "intermodal-estacion-autobuses",
-      "message": "El tráfico de la estación de autobuses se ha desplazado a la nueva intermodal.",
+      "message": "El tráfico de la estación de autobuses se ha desplazado a la nueva intermodal. Actualiza la app para corregir la localización.",
       "messages": {
-        "es": "El tráfico de la estación de autobuses se ha desplazado a la nueva intermodal.",
-        "gl": "O tráfico da estación de autobuses desprazouse á nova intermodal.",
-        "en": "Bus station traffic has moved to the new intermodal station."
+        "es": "El tráfico de la estación de autobuses se ha desplazado a la nueva intermodal. Actualiza la app para corregir la localización.",
+        "gl": "O tráfico da estación de autobuses desprazouse á nova intermodal. Actualiza a app para corrixir a localización.",
+        "en": "Bus station traffic has moved to the new intermodal station. Update the app to correct the location."
       },
       "url": "https://www.xunta.gal/notas-de-prensa/-/nova/029586/xunta-abrira-terminal-autobuses-nueva-estacion-intermodal-coruna-proximo-3-noviembre",
       "from": "2026-11-03T00:00:00+01:00",
