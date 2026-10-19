@@ -131,6 +131,20 @@
       "until": "2026-10-17T20:30:00+02:00",
       "lineIds": [100, 1900, 200, 800, 300, 301, 500, 700, 1700, 2300, 2301],
       "stopIds": []
+    },
+    {
+      "id": "colision-pontevedra-19",
+      "message": "Colisión de dos autobuses en Plaza de Pontevedra. Es posible que la circulación experimente retrasos.",
+      "messages": {
+        "es": "Colisión de dos autobuses en Plaza de Pontevedra. Es posible que la circulación experimente retrasos.",
+        "gl": "Colisión de dous autobuses na Praza de Pontevedra. É posible que a circulación experimente atrasos.",
+        "en": "Collision of two buses at Plaza de Pontevedra. Traffic may be delayed."
+      },
+      "url": "https://x.com/eloytp/status/2112155362895741107?s=46",
+      "from": "2026-10-19T14:29:00+02:00",
+      "until": "2026-10-19T15:30:00+02:00",
+      "lineIds": [2450, 2451, 2400, 2200, 2000, 300, 301],
+      "stopIds": []
     }
   ]
 }
