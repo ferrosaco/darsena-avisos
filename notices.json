@@ -67,6 +67,19 @@
       "modes": ["train"]
     },
     {
+      "id": "intermodal-estacion-autobuses",
+      "message": "El tráfico de la estación de autobuses se ha desplazado a la nueva intermodal.",
+      "messages": {
+        "es": "El tráfico de la estación de autobuses se ha desplazado a la nueva intermodal.",
+        "gl": "O tráfico da estación de autobuses desprazouse á nova intermodal.",
+        "en": "Bus station traffic has moved to the new intermodal station."
+      },
+      "url": "https://www.xunta.gal/notas-de-prensa/-/nova/029586/xunta-abrira-terminal-autobuses-nueva-estacion-intermodal-coruna-proximo-3-noviembre",
+      "from": "2026-11-03T00:00:00+01:00",
+      "until": "2026-11-11T00:00:00+01:00",
+      "modes": ["tmg"]
+    },
+    {
       "id": "manifestacion-comercio-13",
       "message": "Manifestación del comercio de la alimentación a partir de las 12:00 desde Pza. de Lugo a Pza. de San Agustín.",
       "messages": {
