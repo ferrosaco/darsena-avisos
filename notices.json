@@ -145,6 +145,20 @@
       "until": "2026-10-19T15:30:00+02:00",
       "lineIds": [2450, 2451, 2400, 2200, 2000, 300, 301],
       "stopIds": []
+    },
+    {
+      "id": "lineas-3-7-jueves-22",
+      "message": "Cambios en las líneas 3 y 7 a partir del jueves 22.",
+      "messages": {
+        "es": "Cambios en las líneas 3 y 7 a partir del jueves 22.",
+        "gl": "Cambios nas liñas 3 e 7 a partir do xoves 22.",
+        "en": "Changes to lines 3 and 7 from Thursday the 22nd."
+      },
+      "url": "https://x.com/eloytp/status/2112602070213603825?s=46",
+      "from": "2026-10-20T20:20:00+02:00",
+      "until": "2026-10-24T00:00:00+02:00",
+      "lineIds": [300, 700],
+      "stopIds": []
     }
   ]
 }
