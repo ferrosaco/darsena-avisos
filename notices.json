@@ -159,6 +159,31 @@
       "until": "2026-10-24T00:00:00+02:00",
       "lineIds": [300, 700],
       "stopIds": []
+    },
+    {
+      "id": "tmg-concentracion-ourense-21",
+      "message": "Concentración en la Plaza de Ourense a las 19:30. Las líneas interurbanas solo llegarán hasta Cuatro Caminos.",
+      "messages": {
+        "es": "Concentración en la Plaza de Ourense a las 19:30. Las líneas interurbanas solo llegarán hasta Cuatro Caminos.",
+        "gl": "Concentración na Praza de Ourense ás 19:30. As liñas interurbanas só chegarán ata Catro Camiños.",
+        "en": "Gathering at Praza de Ourense at 19:30. Intercity lines will only reach Catro Camiños."
+      },
+      "url": "https://x.com/alsa_calpita/status/2112924142710280379?s=46",
+      "until": "2026-10-21T21:30:00+02:00",
+      "modes": ["tmg"]
+    },
+    {
+      "id": "bus-concentracion-ourense-21",
+      "message": "Concentración en la Plaza de Ourense a las 19:30. Desvío por la Av. del Puerto y el túnel del Parrote.",
+      "messages": {
+        "es": "Concentración en la Plaza de Ourense a las 19:30. Desvío por la Av. del Puerto y el túnel del Parrote.",
+        "gl": "Concentración na Praza de Ourense ás 19:30. Desvío por Av. do Porto e túnel do Parrote.",
+        "en": "Gathering at Praza de Ourense at 19:30. Diversion via Av. do Porto and the Parrote tunnel."
+      },
+      "url": "https://x.com/_juan53/status/2112926069011472395?s=46",
+      "until": "2026-10-21T21:30:00+02:00",
+      "lineIds": [100, 1900, 200, 800, 300, 301, 500, 700, 1700, 2300, 2301],
+      "stopIds": []
     }
   ]
 }
