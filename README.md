@@ -61,6 +61,11 @@ La compilación 64 y las anteriores ignoran `modes`. Un aviso dirigido a otra pe
   "url": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/10/renfe-modifica-temporalmente-servicio-a-coruna",
   "from": "2026-11-03T00:00:00+01:00",
   "until": "2026-11-13T00:00:00+01:00",
-  "modes": ["train"]
+  "modes": ["train"],
+  "cities": ["coruna", "santiago"]
 }
 ```
+
+## Ciudades
+
+`cities` limita el aviso a esas ciudades: `coruna` y `santiago`. Si no está, el aviso no distingue ciudad.
