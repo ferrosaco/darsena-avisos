@@ -61,11 +61,25 @@ La compilación 64 y las anteriores ignoran `modes`. Un aviso dirigido a otra pe
   "url": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/10/renfe-modifica-temporalmente-servicio-a-coruna",
   "from": "2026-11-03T00:00:00+01:00",
   "until": "2026-11-13T00:00:00+01:00",
-  "modes": ["train"],
-  "cities": ["coruna", "santiago"]
+  "modes": ["train"]
 }
 ```
 
 ## Ciudades
 
-`cities` limita el aviso a esas ciudades: `coruna` y `santiago`. Si no está, el aviso no distingue ciudad.
+`cities` acota el aviso. Admite `coruna`, `santiago` o las dos. También vale un solo `city`, por ejemplo `"city": "santiago"`.
+Si no pones ciudad, el aviso sigue saliendo solo en A Coruña, también en la app de Santiago. Una alerta de Santiago no aparece en la app principal.
+`lineIds` y `stopIds` funcionan igual, dentro de esas ciudades. Las bicis de Santiago llevan `"cities": ["santiago"]` y `"modes": ["bike"]`.
+
+```json
+{
+  "id": "tussa-12",
+  "cities": ["santiago"],
+  "modes": ["bus"],
+  "lineIds": [12],
+  "messages": {
+    "es": "…",
+    "gl": "…"
+  }
+}
+```
