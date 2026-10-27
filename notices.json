@@ -184,6 +184,20 @@
       "until": "2026-10-21T21:30:00+02:00",
       "lineIds": [100, 1900, 200, 800, 300, 301, 500, 700, 1700, 2300, 2301],
       "stopIds": []
+    },
+    {
+      "id": "huelga-maquinistas-29",
+      "message": "Huelga de maquinistas el jueves 29.",
+      "messages": {
+        "es": "Huelga de maquinistas el jueves 29.",
+        "gl": "Folga de maquinistas o xoves 29.",
+        "en": "Train drivers' strike on Thursday the 29th."
+      },
+      "url": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/10/establecidos-servicios-minimos-huelga-semaf-29-octubre",
+      "from": "2026-10-28T00:00:00+01:00",
+      "until": "2026-10-30T00:00:00+01:00",
+      "modes": ["train"],
+      "cities": ["coruna", "santiago"]
     }
   ]
 }
