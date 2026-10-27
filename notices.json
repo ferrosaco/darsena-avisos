@@ -186,7 +186,7 @@
       "stopIds": []
     },
     {
-      "id": "huelga-maquinistas-29",
+      "id": "huelga-maquinistas-29-coruna",
       "message": "Huelga de maquinistas el jueves 29.",
       "messages": {
         "es": "Huelga de maquinistas el jueves 29.",
@@ -194,9 +194,26 @@
         "en": "Train drivers' strike on Thursday the 29th."
       },
       "url": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/10/establecidos-servicios-minimos-huelga-semaf-29-octubre",
+      "from": "2026-10-27T16:00:00+01:00",
       "until": "2026-10-30T00:00:00+01:00",
       "modes": ["train"],
-      "cities": ["coruna", "santiago"]
+      "city": "coruna",
+      "cities": ["coruna"]
+    },
+    {
+      "id": "huelga-maquinistas-29-santiago",
+      "message": "Huelga de maquinistas el jueves 29.",
+      "messages": {
+        "es": "Huelga de maquinistas el jueves 29.",
+        "gl": "Folga de maquinistas o xoves 29.",
+        "en": "Train drivers' strike on Thursday the 29th."
+      },
+      "url": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/10/establecidos-servicios-minimos-huelga-semaf-29-octubre",
+      "from": "2026-10-27T16:00:00+01:00",
+      "until": "2026-10-30T00:00:00+01:00",
+      "modes": ["train"],
+      "city": "santiago",
+      "cities": ["santiago"]
     }
   ]
 }
