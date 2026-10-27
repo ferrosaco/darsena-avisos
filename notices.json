@@ -194,7 +194,6 @@
         "en": "Train drivers' strike on Thursday the 29th."
       },
       "url": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/10/establecidos-servicios-minimos-huelga-semaf-29-octubre",
-      "from": "2026-10-28T00:00:00+01:00",
       "until": "2026-10-30T00:00:00+01:00",
       "modes": ["train"],
       "cities": ["coruna", "santiago"]
