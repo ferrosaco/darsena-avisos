@@ -13,20 +13,6 @@
   },
   "alerts": [
     {
-      "id": "udc-sabado-10",
-      "message": "Línea UDC reforzada desde las 16:00 y tras finalizar el encuentro del Básquet Coruña.",
-      "messages": {
-        "es": "Línea UDC reforzada desde las 16:00 y tras finalizar el encuentro del Básquet Coruña.",
-        "gl": "Liña UDC reforzada desde as 16:00 e tras finalizar o encontro do Básquet Coruña.",
-        "en": "UDC line reinforced from 16:00 and after the Básquet Coruña game ends."
-      },
-      "url": "https://x.com/TranviasCoruna/status/2108142882871787766",
-      "from": "2026-10-10T00:00:00+02:00",
-      "until": "2026-10-11T00:00:00+02:00",
-      "lineIds": [2450, 2451],
-      "stopIds": []
-    },
-    {
       "id": "alfonso-molina-sindicatos",
       "message": "Parada anulada. La línea 22 hace parada unos metros más adelante.",
       "messages": {
@@ -80,112 +66,6 @@
       "modes": ["tmg"]
     },
     {
-      "id": "manifestacion-comercio-13",
-      "message": "Manifestación del comercio de la alimentación a partir de las 12:00 desde Pza. de Lugo a Pza. de San Agustín.",
-      "messages": {
-        "es": "Manifestación del comercio de la alimentación a partir de las 12:00 desde Pza. de Lugo a Pza. de San Agustín.",
-        "gl": "Manifestación do comercio da alimentación a partir das 12:00 desde a Praza de Lugo ata a Praza de San Agustín.",
-        "en": "Food retail demonstration from 12:00, from Plaza de Lugo to Plaza de San Agustín."
-      },
-      "url": "https://x.com/servizosccoo/status/2107722394244694197?s=46",
-      "from": "2026-10-13T11:00:00+02:00",
-      "until": "2026-10-13T13:00:00+02:00",
-      "lineIds": [100, 1900, 200, 800, 300, 301, 400, 500, 600, 601, 700, 1100, 1700, 2000, 2100, 2200, 2300, 2301, 2400, 2450, 2451],
-      "stopIds": []
-    },
-    {
-      "id": "renfe-horarios-15",
-      "message": "Cambios en los horarios de tren desde el jueves 15.",
-      "messages": {
-        "es": "Cambios en los horarios de tren desde el jueves 15.",
-        "gl": "Cambios nos horarios de tren desde o xoves 15.",
-        "en": "Changes to train timetables from Thursday the 15th."
-      },
-      "url": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/10/renfe-refuerza-movilidad-eje-atlantico",
-      "until": "2026-10-24T00:00:00+02:00",
-      "modes": ["train"]
-    },
-    {
-      "id": "grela-transporte-15",
-      "message": "Concentración en A Grela del sector del transporte de mercancías a las 11:00.",
-      "messages": {
-        "es": "Concentración en A Grela del sector del transporte de mercancías a las 11:00.",
-        "gl": "Concentración na Grela do sector do transporte de mercadorías ás 11:00.",
-        "en": "Freight transport sector gathering at A Grela at 11:00."
-      },
-      "url": "https://cig.gal/nova/cig-ccoo-e-ugt-convocan-mobilizacions-por-un-convenio-digno-no-transporte-de-mercadorias-da-coruna-e-non-descartan-ir-a-folga.html",
-      "from": "2026-10-15T10:00:00+02:00",
-      "until": "2026-10-15T12:30:00+02:00",
-      "lineIds": [1100],
-      "stopIds": []
-    },
-    {
-      "id": "carrera-enki-17",
-      "message": "Ajustes en la circulación el sábado por la carrera ENKI'26 (de 11h a 20h aprox.).",
-      "messages": {
-        "es": "Ajustes en la circulación el sábado por la carrera ENKI'26 (de 11h a 20h aprox.).",
-        "gl": "Axustes na circulación o sábado pola carreira ENKI'26 (de 11h a 20h aprox.).",
-        "en": "Service adjustments on Saturday due to the ENKI'26 race (from about 11:00 to 20:00)."
-      },
-      "url": "https://tranviascoruna.com/gl/afeccions-pola-carreira-enki26/",
-      "until": "2026-10-17T20:30:00+02:00",
-      "lineIds": [100, 1900, 200, 800, 300, 301, 500, 700, 1700, 2300, 2301],
-      "stopIds": []
-    },
-    {
-      "id": "colision-pontevedra-19",
-      "message": "Colisión de dos autobuses en Plaza de Pontevedra. Es posible que la circulación experimente retrasos.",
-      "messages": {
-        "es": "Colisión de dos autobuses en Plaza de Pontevedra. Es posible que la circulación experimente retrasos.",
-        "gl": "Colisión de dous autobuses na Praza de Pontevedra. É posible que a circulación experimente atrasos.",
-        "en": "Collision of two buses at Plaza de Pontevedra. Traffic may be delayed."
-      },
-      "url": "https://x.com/eloytp/status/2112155362895741107?s=46",
-      "from": "2026-10-19T14:29:00+02:00",
-      "until": "2026-10-19T15:30:00+02:00",
-      "lineIds": [2450, 2451, 2400, 2200, 2000, 300, 301],
-      "stopIds": []
-    },
-    {
-      "id": "lineas-3-7-jueves-22",
-      "message": "Cambios en las líneas 3 y 7 a partir del jueves 22.",
-      "messages": {
-        "es": "Cambios en las líneas 3 y 7 a partir del jueves 22.",
-        "gl": "Cambios nas liñas 3 e 7 a partir do xoves 22.",
-        "en": "Changes to lines 3 and 7 from Thursday the 22nd."
-      },
-      "url": "https://tranviascoruna.com/cambios-en-las-rutas-de-las-li/",
-      "from": "2026-10-20T20:20:00+02:00",
-      "until": "2026-10-24T00:00:00+02:00",
-      "lineIds": [300, 700],
-      "stopIds": []
-    },
-    {
-      "id": "tmg-concentracion-ourense-21",
-      "message": "Concentración en la Plaza de Ourense a las 19:30. Las líneas interurbanas solo llegarán hasta Cuatro Caminos.",
-      "messages": {
-        "es": "Concentración en la Plaza de Ourense a las 19:30. Las líneas interurbanas solo llegarán hasta Cuatro Caminos.",
-        "gl": "Concentración na Praza de Ourense ás 19:30. As liñas interurbanas só chegarán ata Catro Camiños.",
-        "en": "Gathering at Praza de Ourense at 19:30. Intercity lines will only reach Catro Camiños."
-      },
-      "url": "https://x.com/alsa_calpita/status/2112924142710280379?s=46",
-      "until": "2026-10-21T21:30:00+02:00",
-      "modes": ["tmg"]
-    },
-    {
-      "id": "bus-concentracion-ourense-21",
-      "message": "Concentración en la Plaza de Ourense a las 19:30. Desvío por la Av. del Puerto y el túnel del Parrote.",
-      "messages": {
-        "es": "Concentración en la Plaza de Ourense a las 19:30. Desvío por la Av. del Puerto y el túnel del Parrote.",
-        "gl": "Concentración na Praza de Ourense ás 19:30. Desvío por Av. do Porto e túnel do Parrote.",
-        "en": "Gathering at Praza de Ourense at 19:30. Diversion via Av. do Porto and the Parrote tunnel."
-      },
-      "url": "https://x.com/_juan53/status/2112926069011472395?s=46",
-      "until": "2026-10-21T21:30:00+02:00",
-      "lineIds": [100, 1900, 200, 800, 300, 301, 500, 700, 1700, 2300, 2301],
-      "stopIds": []
-    },
-    {
       "id": "huelga-maquinistas-29-coruna",
       "message": "Huelga de maquinistas el jueves 29.",
       "messages": {
@@ -228,6 +108,22 @@
       "until": "2026-10-29T21:00:00+01:00",
       "modes": ["bus", "tmg"],
       "cities": ["coruna", "santiago"]
+    },
+    {
+      "id": "linea-11-sardineira",
+      "message": "La línea 11 recupera su trayecto por Av. Sardiñeira.",
+      "messages": {
+        "es": "La línea 11 recupera su trayecto por Av. Sardiñeira.",
+        "gl": "A liña 11 recupera o seu traxecto pola Av. Sardiñeira.",
+        "en": "Line 11 resumes its route along Av. Sardiñeira."
+      },
+      "url": "https://x.com/darsenatp/status/2115455127066673545?s=46",
+      "from": "2026-10-31T00:00:00+01:00",
+      "until": "2026-11-04T00:00:00+01:00",
+      "lineIds": [1100],
+      "stopIds": [],
+      "city": "coruna",
+      "cities": ["coruna"]
     }
   ]
 }
