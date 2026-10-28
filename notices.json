@@ -216,7 +216,7 @@
       "cities": ["santiago"]
     },
     {
-      "id": "caravana-concertada-29-bus-coruna",
+      "id": "caravana-concertada-29",
       "message": "Caravanas desde las 19:00 en protesta por la enseñanza concertada. Podría haber retrasos.",
       "messages": {
         "es": "Caravanas desde las 19:00 en protesta por la enseñanza concertada. Podría haber retrasos.",
@@ -226,56 +226,10 @@
       "url": "https://x.com/cigensino/status/2113571150580097514?s=46",
       "from": "2026-10-29T00:00:00+01:00",
       "until": "2026-10-29T21:00:00+01:00",
-      "modes": ["bus"],
+      "modes": ["bus", "tmg"],
       "lineIds": [100, 1900, 200, 800, 300, 301, 400, 500, 600, 601, 700, 1100, 1200, 1500, 1400, 1700, 2000, 2100, 2200, 2300, 2301, 2400, 1800, 1801, 2450, 2451],
       "stopIds": [],
-      "city": "coruna",
-      "cities": ["coruna"]
-    },
-    {
-      "id": "caravana-concertada-29-tmg-coruna",
-      "message": "Caravanas desde las 19:00 en protesta por la enseñanza concertada. Podría haber retrasos.",
-      "messages": {
-        "es": "Caravanas desde las 19:00 en protesta por la enseñanza concertada. Podría haber retrasos.",
-        "gl": "Caravanas desde as 19:00 en protesta polo ensino concertado. Podería haber atrasos.",
-        "en": "Convoys from 19:00 in protest over state-funded schools. There may be delays."
-      },
-      "url": "https://x.com/cigensino/status/2113571150580097514?s=46",
-      "from": "2026-10-29T00:00:00+01:00",
-      "until": "2026-10-29T21:00:00+01:00",
-      "modes": ["tmg"],
-      "city": "coruna",
-      "cities": ["coruna"]
-    },
-    {
-      "id": "caravana-concertada-29-bus-santiago",
-      "message": "Caravanas desde las 19:00 en protesta por la enseñanza concertada. Podría haber retrasos.",
-      "messages": {
-        "es": "Caravanas desde las 19:00 en protesta por la enseñanza concertada. Podría haber retrasos.",
-        "gl": "Caravanas desde as 19:00 en protesta polo ensino concertado. Podería haber atrasos.",
-        "en": "Convoys from 19:00 in protest over state-funded schools. There may be delays."
-      },
-      "url": "https://x.com/cigensino/status/2113571150580097514?s=46",
-      "from": "2026-10-29T00:00:00+01:00",
-      "until": "2026-10-29T21:00:00+01:00",
-      "modes": ["bus"],
-      "city": "santiago",
-      "cities": ["santiago"]
-    },
-    {
-      "id": "caravana-concertada-29-tmg-santiago",
-      "message": "Caravanas desde las 19:00 en protesta por la enseñanza concertada. Podría haber retrasos.",
-      "messages": {
-        "es": "Caravanas desde las 19:00 en protesta por la enseñanza concertada. Podría haber retrasos.",
-        "gl": "Caravanas desde as 19:00 en protesta polo ensino concertado. Podería haber atrasos.",
-        "en": "Convoys from 19:00 in protest over state-funded schools. There may be delays."
-      },
-      "url": "https://x.com/cigensino/status/2113571150580097514?s=46",
-      "from": "2026-10-29T00:00:00+01:00",
-      "until": "2026-10-29T21:00:00+01:00",
-      "modes": ["tmg"],
-      "city": "santiago",
-      "cities": ["santiago"]
+      "cities": ["coruna", "santiago"]
     }
   ]
 }
