@@ -80,20 +80,6 @@
       "cities": ["coruna", "santiago"]
     },
     {
-      "id": "caravana-concertada-29",
-      "message": "Caravanas desde las 19:00 en protesta por la enseñanza concertada. Podría haber retrasos.",
-      "messages": {
-        "es": "Caravanas desde las 19:00 en protesta por la enseñanza concertada. Podría haber retrasos.",
-        "gl": "Caravanas desde as 19:00 en protesta polo ensino concertado. Podería haber atrasos.",
-        "en": "Convoys from 19:00 in protest over state-funded schools. There may be delays."
-      },
-      "url": "https://x.com/cigensino/status/2113571150580097514?s=46",
-      "from": "2026-10-29T17:00:00+01:00",
-      "until": "2026-10-29T21:00:00+01:00",
-      "modes": ["bus", "tmg"],
-      "cities": ["coruna", "santiago"]
-    },
-    {
       "id": "linea-11-sardineira",
       "message": "La línea 11 recupera su trayecto por Av. Sardiñeira.",
       "messages": {
