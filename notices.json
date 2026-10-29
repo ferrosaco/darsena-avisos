@@ -108,6 +108,38 @@
       "stopIds": [],
       "city": "coruna",
       "cities": ["coruna"]
+    },
+    {
+      "id": "todos-santos-23",
+      "message": "Refuerzos en la línea durante el dispositivo de Todos los Santos.",
+      "messages": {
+        "es": "Refuerzos en la línea durante el dispositivo de Todos los Santos.",
+        "gl": "Reforzos na liña durante o dispositivo de Todos os Santos.",
+        "en": "Extra service on the line during the All Saints' Day operation."
+      },
+      "url": "https://tranviascoruna.com/dispositivo-especial-dia-de-todos-los-santos/",
+      "from": "2026-10-31T00:00:00+01:00",
+      "until": "2026-11-02T00:00:00+01:00",
+      "lineIds": [2300, 2301],
+      "stopIds": [],
+      "city": "coruna",
+      "cities": ["coruna"]
+    },
+    {
+      "id": "todos-santos-3-11",
+      "message": "Refuerzos en la línea durante el dispositivo de Todos los Santos.",
+      "messages": {
+        "es": "Refuerzos en la línea durante el dispositivo de Todos los Santos.",
+        "gl": "Reforzos na liña durante o dispositivo de Todos os Santos.",
+        "en": "Extra service on the line during the All Saints' Day operation."
+      },
+      "url": "https://tranviascoruna.com/dispositivo-especial-dia-de-todos-los-santos/",
+      "from": "2026-11-01T00:00:00+01:00",
+      "until": "2026-11-02T00:00:00+01:00",
+      "lineIds": [300, 301, 1100],
+      "stopIds": [],
+      "city": "coruna",
+      "cities": ["coruna"]
     }
   ]
 }
