@@ -140,6 +140,20 @@
       "until": "2026-11-01T00:00:00+01:00",
       "lineIds": [2450, 2451],
       "stopIds": []
+    },
+    {
+      "id": "udc-depor-2-noviembre",
+      "message": "Refuerzo de la línea UDC al terminar el partido del Dépor (22:45 aprox.).",
+      "messages": {
+        "es": "Refuerzo de la línea UDC al terminar el partido del Dépor (22:45 aprox.).",
+        "gl": "Reforzo da liña UDC ao terminar o partido do Dépor (22:45 aprox.).",
+        "en": "Extra service on the UDC line after the Dépor match ends (around 22:45)."
+      },
+      "url": "https://x.com/tranviascoruna/status/2116243742097395972?s=46",
+      "from": "2026-11-02T17:00:00+01:00",
+      "until": "2026-11-03T00:00:00+01:00",
+      "lineIds": [2450, 2451],
+      "stopIds": []
     }
   ]
 }
