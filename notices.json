@@ -154,29 +154,6 @@
       "until": "2026-11-03T00:00:00+01:00",
       "lineIds": [2450, 2451],
       "stopIds": []
-    },
-    {
-      "id": "prueba-depor-exercito-68",
-      "message": "Prueba: Dépor.",
-      "messages": {
-        "es": "Prueba: Dépor.",
-        "gl": "Prueba: Dépor.",
-        "en": "Prueba: Dépor."
-      },
-      "lineIds": [],
-      "stopIds": [524]
-    },
-    {
-      "id": "prueba-basquet-exercito-44",
-      "message": "Prueba: Básquet Coruña (ignorar este mensaje)",
-      "messages": {
-        "es": "Prueba: Básquet Coruña (ignorar este mensaje)",
-        "gl": "Prueba: Básquet Coruña (ignorar este mensaje)",
-        "en": "Prueba: Básquet Coruña (ignorar este mensaje)"
-      },
-      "url": "https://www.google.com",
-      "lineIds": [],
-      "stopIds": [416]
     }
   ]
 }
