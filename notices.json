@@ -164,7 +164,7 @@
         "en": "Stop out of service due to works."
       },
       "lineIds": [],
-      "stopIds": [288]
+      "stopIds": [288, 346]
     }
   ]
 }
