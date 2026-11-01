@@ -143,17 +143,31 @@
     },
     {
       "id": "udc-depor-2-noviembre",
-      "message": "Reforzada línea UDC tras el partido del Dépor (22:45)",
+      "message": "Reforzada línea UDC tras el partido del Dépor (22:45).",
       "messages": {
-        "es": "Reforzada línea UDC tras el partido del Dépor (22:45)",
-        "gl": "Reforzada liña UDC tras o partido do Dépor (22:45)",
-        "en": "UDC line reinforced after the Dépor match (22:45)"
+        "es": "Reforzada línea UDC tras el partido del Dépor (22:45).",
+        "gl": "Reforzada liña UDC tras o partido do Dépor (22:45).",
+        "en": "UDC line reinforced after the Dépor match (22:45)."
       },
       "url": "https://x.com/tranviascoruna/status/2116243742097395972?s=46",
       "from": "2026-11-02T17:00:00+01:00",
       "until": "2026-11-03T00:00:00+01:00",
       "lineIds": [2450, 2451],
       "stopIds": []
+    },
+    {
+      "id": "udc-depor-parada-189",
+      "message": "Reforzada línea UDC tras el partido del Dépor (22:45).",
+      "messages": {
+        "es": "Reforzada línea UDC tras el partido del Dépor (22:45).",
+        "gl": "Reforzada liña UDC tras o partido do Dépor (22:45).",
+        "en": "UDC line reinforced after the Dépor match (22:45)."
+      },
+      "url": "https://x.com/tranviascoruna/status/2116243742097395972?s=46",
+      "from": "2026-11-01T12:18:00+01:00",
+      "until": "2026-12-01T00:00:00+01:00",
+      "lineIds": [],
+      "stopIds": [189]
     }
   ]
 }
