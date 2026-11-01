@@ -154,6 +154,17 @@
       "until": "2026-11-03T00:00:00+01:00",
       "lineIds": [2450, 2451],
       "stopIds": []
+    },
+    {
+      "id": "parada-288-obras",
+      "message": "Parada inhabilitada por obras.",
+      "messages": {
+        "es": "Parada inhabilitada por obras.",
+        "gl": "Parada inhabilitada por obras.",
+        "en": "Stop out of service due to works."
+      },
+      "lineIds": [],
+      "stopIds": [288]
     }
   ]
 }
