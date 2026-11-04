@@ -165,6 +165,18 @@
       },
       "lineIds": [],
       "stopIds": [288, 346]
+    },
+    {
+      "id": "paradas-canedo-castro-elvina",
+      "message": "Parada anulada durante las obras de las calles Canedo y Castro de Elviña.",
+      "messages": {
+        "es": "Parada anulada durante las obras de las calles Canedo y Castro de Elviña.",
+        "gl": "Parada anulada durante as obras das rúas Canedo e Castro de Elviña.",
+        "en": "Stop out of service during the works on Canedo and Castro de Elviña streets."
+      },
+      "url": "https://x.com/tranviascoruna/status/2061729569112006791?s=46",
+      "lineIds": [],
+      "stopIds": [350, 351, 352, 353]
     }
   ]
 }
