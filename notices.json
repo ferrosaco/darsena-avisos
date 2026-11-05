@@ -54,11 +54,11 @@
     },
     {
       "id": "renfe-carretera-noviembre-santiago",
-      "message": "Conexión coa Coruña por estrada do 5 ao 12 de novembro.",
+      "message": "Conexión con A Coruña por carretera del 5 al 12 de noviembre.",
       "messages": {
-        "es": "Conexión coa Coruña por estrada do 5 ao 12 de novembro.",
+        "es": "Conexión con A Coruña por carretera del 5 al 12 de noviembre.",
         "gl": "Conexión coa Coruña por estrada do 5 ao 12 de novembro.",
-        "en": "Conexión coa Coruña por estrada do 5 ao 12 de novembro."
+        "en": "Connection to A Coruña by road from 5 to 12 November."
       },
       "url": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/10/renfe-modifica-temporalmente-servicio-a-coruna",
       "from": "2026-11-03T00:00:00+01:00",
