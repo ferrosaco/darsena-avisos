@@ -157,6 +157,20 @@
       "stopIds": []
     },
     {
+      "id": "udc-domingo-8",
+      "message": "Línea UDC reforzada desde las 16:00 y tras finalizar el encuentro del Básquet Coruña.",
+      "messages": {
+        "es": "Línea UDC reforzada desde las 16:00 y tras finalizar el encuentro del Básquet Coruña.",
+        "gl": "Liña UDC reforzada desde as 16:00 e tras finalizar o encontro do Básquet Coruña.",
+        "en": "UDC line reinforced from 16:00 and after the Básquet Coruña game ends."
+      },
+      "url": "https://x.com/tranviascoruna/status/2118666323697791306",
+      "from": "2026-11-08T00:00:00+01:00",
+      "until": "2026-11-09T00:00:00+01:00",
+      "lineIds": [2450, 2451],
+      "stopIds": []
+    },
+    {
       "id": "udc-depor-2-noviembre",
       "message": "Reforzada línea UDC tras el partido del Dépor (22:45).",
       "messages": {
