@@ -1,38 +1,34 @@
 # Avisos de Dársena
 
-La app lee `notices.json` de la rama `main` al abrirse y al volver a primer plano.
+Este repositorio es el que lee Dársena para informarse de las afectaciones al tráfico. La app lee `notices.json` de la rama `main` al abrirse y al volver a primer plano. Puede haber unos minutos de delay entre que se actualiza `notices` y se refleja en la app.
 
 https://raw.githubusercontent.com/ferrosaco/darsena-avisos/main/notices.json
 
-GitHub puede tardar un par de minutos en servir el archivo nuevo.
-
-## Actualización
+## Pop-up para actualizar la app
 
 Hay dos umbrales, los dos opcionales:
-
-- `minimumVersion`: si la app instalada es más antigua, sale un aviso que se puede cerrar.
-- `requiredVersion`: si la app instalada es más antigua, la app se bloquea hasta actualizar.
-- `required: true` es el modo antiguo: trata `minimumVersion` como bloqueo. Las builds nuevas miran primero `requiredVersion`.
-- La compilación 62 necesita que `required` esté presente. Si falta, ignora el archivo entero. Con `required: false` el aviso de `minimumVersion` se puede cerrar.
+- `minimumVersion`: si la app instalada es más antigua que la indicada, sale un aviso que se puede cerrar.
+- `requiredVersion`: si la app instalada es más antigua que la indicada, la app se bloquea hasta actualizar.
+- `required: true` es el modo antiguo: trata `minimumVersion` igual que `requiredVersion`. Las builds nuevas miran primero `requiredVersion`.
+- Desde la compilación 62 es necesario que `required` esté presente. Si falta, ignora el archivo entero. Con `required: false` el aviso de `minimumVersion` se puede cerrar.
 
 `messages` y `requiredMessages` llevan el texto en `es`, `gl` y `en`. Si falta el idioma, se usa el español.
-`message` en un solo idioma sigue valiendo: las builds anteriores solo leen ese campo.
+`message` es para builds antiguas.
 
-## Afectaciones
+## Afectaciones al bus urbano
 
-El aviso se muestra al abrir una parada o una línea que coincida. Una línea afecta también a las paradas por las que pasa.
-El texto va en `messages` (`es`, `gl`, `en`). `message` es el respaldo de una sola frase.
+El aviso se muestra al abrir una parada o una línea que coincida con el aviso. Una línea afecta también a las paradas por las que pasa.
+El texto va en `messages` (`es`, `gl`, `en`). `message` es el respaldo para builds antiguas.
 `from` y `until` son fechas ISO 8601 con zona horaria. El aviso solo se muestra entre esas dos horas. Si falta `from`, se muestra desde que se publica. Pasada `until`, desaparece.
-La compilación 63 y las anteriores ignoran `from` y mostrarían el aviso en cuanto esté en el archivo. Un aviso programado solo debe publicarse cuando la app instalada sea la 64 o posterior.
-`url` es el botón «Saber más».
-La aspa lo oculta solo en esa ficha. Al volver a abrir una parada o línea afectada, vuelve a salir.
+La compilación 63 y anteriores ignoran `from` y mostrarían el aviso en cuanto esté en el archivo.
+`url` es el botón «Saber más». Sin URL, el botón no se muestra.
 
 ```json
 {
   "id": "linea-4",
   "messages": {
     "es": "La línea 4 no para en Puerta Real hasta el viernes.",
-    "gl": "A liña 4 non para na Porta Real ata o venres.",
+    "gl": "A liña 4 non para en Porta Real ata o venres.",
     "en": "Line 4 does not stop at Puerta Real until Friday."
   },
   "url": "https://ejemplo.com/aviso",
@@ -43,7 +39,7 @@ La aspa lo oculta solo en esa ficha. Al volver a abrir una parada o línea afect
 }
 ```
 
-`lineIds` y `stopIds` son los identificadores internos. La 3 es `300` y la 5 es `500`. Esos dos campos siguen avisando solo en la ficha de una parada o una línea del bus urbano.
+`lineIds` y `stopIds` son identificadores internos. La 3 es `300` y la 5 es `500`. Esos dos campos siguen avisando solo en la ficha de una parada o una línea del bus urbano.
 
 ## Pestañas
 
@@ -68,8 +64,8 @@ La compilación 64 y las anteriores ignoran `modes`. Un aviso dirigido a otra pe
 ## Ciudades
 
 `cities` acota el aviso. Admite `coruna`, `santiago` o las dos. También vale un solo `city`, por ejemplo `"city": "santiago"`.
-Si no pones ciudad, el aviso sigue saliendo solo en A Coruña, también en la app de Santiago. Una alerta de Santiago no aparece en la app principal.
-`lineIds` y `stopIds` funcionan igual, dentro de esas ciudades. Las bicis de Santiago llevan `"cities": ["santiago"]` y `"modes": ["bike"]`.
+Si no se indica ciudad, el aviso sale solo en A Coruña.
+`lineIds` y `stopIds` funcionan igual dentro de esas ciudades. Por ejemplo, las bicis de Santiago llevan `"cities": ["santiago"]` y `"modes": ["bike"]`.
 
 ```json
 {
