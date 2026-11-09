@@ -40,6 +40,32 @@
       "stopIds": []
     },
     {
+      "id": "folga-urbanos-15",
+      "message": "Huelga mañana: solo servicios mínimos.",
+      "messages": {
+        "es": "Huelga mañana: solo servicios mínimos.",
+        "gl": "Folga mañá: só servizos mínimos.",
+        "en": "Strike tomorrow: minimum services only."
+      },
+      "from": "2026-11-15T15:00:00+01:00",
+      "until": "2026-11-16T00:00:00+01:00",
+      "lineIds": [100, 1900, 200, 800, 300, 301, 400, 500, 600, 601, 700, 1100, 1200, 1500, 1400, 1700, 2000, 2100, 2200, 2300, 2301, 2400, 1800, 1801, 2450, 2451],
+      "stopIds": []
+    },
+    {
+      "id": "folga-urbanos-16",
+      "message": "Huelga: solo servicios mínimos.",
+      "messages": {
+        "es": "Huelga: solo servicios mínimos.",
+        "gl": "Folga: só servizos mínimos.",
+        "en": "Strike: minimum services only."
+      },
+      "from": "2026-11-16T00:00:00+01:00",
+      "until": "2026-11-17T00:00:00+01:00",
+      "lineIds": [100, 1900, 200, 800, 300, 301, 400, 500, 600, 601, 700, 1100, 1200, 1500, 1400, 1700, 2000, 2100, 2200, 2300, 2301, 2400, 1800, 1801, 2450, 2451],
+      "stopIds": []
+    },
+    {
       "id": "renfe-carretera-noviembre",
       "message": "Entre el 5 y el 12 de noviembre el servicio de Renfe se prestará por carretera.",
       "messages": {
