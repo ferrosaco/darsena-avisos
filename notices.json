@@ -66,6 +66,20 @@
       "stopIds": []
     },
     {
+      "id": "linea-12-ronda-nelle-10",
+      "message": "Esta noche, anuladas Ronda de Nelle 9 y 26 por obras en el viaducto.",
+      "messages": {
+        "es": "Esta noche, anuladas Ronda de Nelle 9 y 26 por obras en el viaducto.",
+        "gl": "Esta noite, anuladas Ronda de Nelle 9 e 26 por obras no viaduto.",
+        "en": "Tonight, Ronda de Nelle 9 and 26 are out of service due to works on the viaduct."
+      },
+      "url": "https://x.com/TranviasCoruna/status/2119822167491678552",
+      "from": "2026-11-10T21:00:00+01:00",
+      "until": "2026-11-10T23:50:00+01:00",
+      "lineIds": [1200],
+      "stopIds": []
+    },
+    {
       "id": "renfe-carretera-noviembre",
       "message": "Entre el 5 y el 12 de noviembre el servicio de Renfe se prestará por carretera.",
       "messages": {
