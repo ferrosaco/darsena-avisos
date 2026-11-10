@@ -27,17 +27,36 @@
     },
     {
       "id": "huelga-general-11-noviembre",
-      "message": "Huelga general. Posible reducción de los servicios de transporte.",
+      "message": "Huelga general. Bus operando con servicios mínimos.",
       "messages": {
-        "es": "Huelga general. Posible reducción de los servicios de transporte.",
-        "gl": "Folga xeral. Posible redución dos servizos de transporte.",
-        "en": "General strike. Possible reduction of transport services."
+        "es": "Huelga general. Bus operando con servicios mínimos.",
+        "gl": "Folga xeral. Bus operando con servizos mínimos.",
+        "en": "General strike. Buses running with minimum services."
       },
-      "url": "https://www.cig.gal/nova/a-cig-anuncia-a-convocatoria-de-folga-xeral-en-galiza-para-o-mercores-11-de-novembro.html",
+      "url": "https://x.com/eloytp/status/2120115523358761008",
       "from": "2026-11-11T00:00:00+01:00",
       "until": "2026-11-12T00:00:00+01:00",
       "lineIds": [100, 1900, 200, 800, 300, 301, 400, 500, 600, 601, 700, 1100, 1200, 1500, 1400, 1700, 2000, 2100, 2200, 2300, 2301, 2400, 1800, 1801, 2450, 2451],
-      "stopIds": []
+      "stopIds": [],
+      "city": "coruna",
+      "cities": ["coruna"]
+    },
+    {
+      "id": "huelga-general-hoy-10",
+      "message": "Mañana huelga general. Fijados servicios mínimos.",
+      "messages": {
+        "es": "Mañana huelga general. Fijados servicios mínimos.",
+        "gl": "Mañá folga xeral. Fixados servizos mínimos.",
+        "en": "General strike tomorrow. Minimum services have been set."
+      },
+      "url": "https://x.com/eloytp/status/2120115523358761008",
+      "from": "2026-11-10T00:00:00+01:00",
+      "until": "2026-11-11T00:00:00+01:00",
+      "modes": ["bus"],
+      "lineIds": [100, 1900, 200, 800, 300, 301, 400, 500, 600, 601, 700, 1100, 1200, 1500, 1400, 1700, 2000, 2100, 2200, 2300, 2301, 2400, 1800, 1801, 2450, 2451],
+      "stopIds": [],
+      "city": "coruna",
+      "cities": ["coruna"]
     },
     {
       "id": "folga-urbanos-15",
