@@ -265,6 +265,17 @@
       "url": "https://x.com/tranviascoruna/status/2061729569112006791?s=46",
       "lineIds": [],
       "stopIds": [350, 351, 352, 353]
+    },
+    {
+      "id": "parada-591-xubias",
+      "message": "Parada no operativa. El bus descansa junto al aparcamiento de Servisa (unos 100 m más adelante).",
+      "messages": {
+        "es": "Parada no operativa. El bus descansa junto al aparcamiento de Servisa (unos 100 m más adelante).",
+        "gl": "Parada non operativa. O bus descansa xunto ao aparcadoiro de Servisa (uns 100 m máis adiante).",
+        "en": "Stop out of service. The bus lays over by the Servisa car park (about 100 m further ahead)."
+      },
+      "lineIds": [],
+      "stopIds": [591]
     }
   ]
 }
