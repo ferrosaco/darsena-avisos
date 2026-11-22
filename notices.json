@@ -13,6 +13,19 @@
   },
   "alerts": [
     {
+      "id": "elecciones-generales-29n",
+      "message": "Elecciones generales (29N). Desplázate con tiempo y ten en cuenta posibles aglomeraciones.",
+      "messages": {
+        "es": "Elecciones generales (29N). Desplázate con tiempo y ten en cuenta posibles aglomeraciones.",
+        "gl": "Eleccións xerais (29N). Desprázate con tempo e ten en conta posibles aglomeracións.",
+        "en": "General election (29N). Allow extra time and expect possible crowds."
+      },
+      "from": "2026-11-29T00:00:00+01:00",
+      "until": "2026-11-30T00:00:00+01:00",
+      "modes": ["bus", "bike", "taxi", "train", "tmg"],
+      "cities": ["coruna", "santiago"]
+    },
+    {
       "id": "alfonso-molina-sindicatos",
       "message": "Parada anulada. La línea 22 hace parada unos metros más adelante.",
       "messages": {
