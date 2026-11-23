@@ -63,9 +63,9 @@ La compilación 64 y las anteriores ignoran `modes`. Un aviso dirigido a otra pe
 
 ## Ciudades
 
-`cities` acota el aviso. Admite `coruna`, `santiago` o las dos. También vale un solo `city`, por ejemplo `"city": "santiago"`.
+`cities` acota el aviso. Admite `coruna`, `santiago`, `vigo`, `pontevedra` y `ferrol`, una o varias. También vale un solo `city`, por ejemplo `"city": "santiago"`.
 Si no se indica ciudad, el aviso sale solo en A Coruña.
-`lineIds` y `stopIds` funcionan igual dentro de esas ciudades. Por ejemplo, las bicis de Santiago llevan `"cities": ["santiago"]` y `"modes": ["bike"]`.
+Vigo, Pontevedra y Ferrol tienen los mismos servicios que A Coruña y Santiago: bus, bici, taxi, tren y TMG. `modes`, `lineIds` y `stopIds` funcionan igual dentro de esas ciudades. Por ejemplo, las bicis de Santiago llevan `"cities": ["santiago"]` y `"modes": ["bike"]`.
 
 ```json
 {
