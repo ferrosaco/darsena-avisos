@@ -13,6 +13,19 @@
   },
   "alerts": [
     {
+      "id": "bicicoruna-reserva-1-9-diciembre",
+      "message": "Hasta el 9 de diciembre no será posible reservar bicicletas.",
+      "messages": {
+        "es": "Hasta el 9 de diciembre no será posible reservar bicicletas.",
+        "gl": "Ata o 9 de decembro non será posible reservar bicicletas.",
+        "en": "Bike reservations will not be possible until 9 December."
+      },
+      "from": "2026-12-01T00:00:00+01:00",
+      "until": "2026-12-10T00:00:00+01:00",
+      "modes": ["bike"],
+      "cities": ["coruna"]
+    },
+    {
       "id": "elecciones-generales-29n",
       "message": "Elecciones generales (29N). Desplázate con tiempo y ten en cuenta posibles aglomeraciones.",
       "messages": {
