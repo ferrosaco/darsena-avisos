@@ -280,11 +280,11 @@
     },
     {
       "id": "vigo-navidad-compostela-policarpo",
-      "message": "Paradas anuladas por los desvíos de Navidad.",
+      "message": "Parada anulada por los desvíos de Navidad.",
       "messages": {
-        "es": "Paradas anuladas por los desvíos de Navidad.",
-        "gl": "Paradas anuladas polos desvíos de Nadal.",
-        "en": "Stops out of service due to the Christmas diversions."
+        "es": "Parada anulada por los desvíos de Navidad.",
+        "gl": "Parada anulada polos desvíos de Nadal.",
+        "en": "Stop out of service due to the Christmas diversions."
       },
       "until": "2027-01-11T00:00:00+01:00",
       "lineIds": [],
@@ -294,11 +294,11 @@
     },
     {
       "id": "vigo-navidad-l5b-l17",
-      "message": "Paradas anuladas por los desvíos de Navidad (solo L5B y la L17).",
+      "message": "Parada anulada por los desvíos de Navidad (solo L5B y la L17).",
       "messages": {
-        "es": "Paradas anuladas por los desvíos de Navidad (solo L5B y la L17).",
-        "gl": "Paradas anuladas polos desvíos de Nadal (só a L5B e a L17).",
-        "en": "Stops out of service due to the Christmas diversions (line 5B and line 17 only)."
+        "es": "Parada anulada por los desvíos de Navidad (solo L5B y la L17).",
+        "gl": "Parada anulada polos desvíos de Nadal (só a L5B e a L17).",
+        "en": "Stop out of service due to the Christmas diversions (line 5B and line 17 only)."
       },
       "until": "2027-01-11T00:00:00+01:00",
       "lineIds": [],
