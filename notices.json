@@ -125,6 +125,19 @@
       "stopIds": []
     },
     {
+      "id": "linea-12-ronda-nelle-25",
+      "message": "Desvío de la línea 12 durante la noche el miércoles y el jueves por corte en Ronda de Nelle.",
+      "messages": {
+        "es": "Desvío de la línea 12 durante la noche el miércoles y el jueves por corte en Ronda de Nelle.",
+        "gl": "Desvío da liña 12 durante a noite o mércores e o xoves por corte en Ronda de Nelle.",
+        "en": "Line 12 diversion overnight on Wednesday and Thursday due to a closure on Ronda de Nelle."
+      },
+      "url": "https://x.com/_juan53/status/2125601142927167732",
+      "until": "2026-11-27T07:00:00+01:00",
+      "lineIds": [1200],
+      "stopIds": []
+    },
+    {
       "id": "renfe-carretera-noviembre",
       "message": "Entre el 5 y el 12 de noviembre el servicio de Renfe se prestará por carretera.",
       "messages": {
