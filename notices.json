@@ -153,6 +153,23 @@
       "cities": ["coruna"]
     },
     {
+      "id": "depor-barcelona-29",
+      "message": "Servicio especial desde las 14:30 y tras finalizar el partido del Dépor contra el FC Barcelona.",
+      "messages": {
+        "es": "Servicio especial desde las 14:30 y tras finalizar el partido del Dépor contra el FC Barcelona.",
+        "gl": "Servizo especial desde as 14:30 e tras rematar o partido do Dépor contra o FC Barcelona.",
+        "en": "Special service from 14:30 and after the Dépor match against FC Barcelona ends."
+      },
+      "url": "https://x.com/tranviascoruna/status/2126250724006965262",
+      "from": "2026-11-29T15:00:00+01:00",
+      "until": "2026-11-29T19:00:00+01:00",
+      "modes": ["bus"],
+      "lineIds": [100, 1900, 200, 800, 300, 301, 400, 500, 600, 601, 700, 1100, 1200, 1500, 1400, 1700, 2000, 2100, 2200, 2300, 2301, 2400, 1800, 1801, 2450, 2451],
+      "stopIds": [],
+      "city": "coruna",
+      "cities": ["coruna"]
+    },
+    {
       "id": "renfe-carretera-noviembre",
       "message": "Entre el 5 y el 12 de noviembre el servicio de Renfe se prestará por carretera.",
       "messages": {
