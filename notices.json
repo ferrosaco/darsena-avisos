@@ -138,6 +138,21 @@
       "stopIds": []
     },
     {
+      "id": "linea-11-black-friday-27",
+      "message": "Línea 11 reforzada durante el Black Friday.",
+      "messages": {
+        "es": "Línea 11 reforzada durante el Black Friday.",
+        "gl": "Liña 11 reforzada durante o Black Friday.",
+        "en": "Line 11 reinforced during Black Friday."
+      },
+      "from": "2026-11-27T00:00:00+01:00",
+      "until": "2026-11-28T00:00:00+01:00",
+      "lineIds": [1100],
+      "stopIds": [],
+      "city": "coruna",
+      "cities": ["coruna"]
+    },
+    {
       "id": "renfe-carretera-noviembre",
       "message": "Entre el 5 y el 12 de noviembre el servicio de Renfe se prestará por carretera.",
       "messages": {
